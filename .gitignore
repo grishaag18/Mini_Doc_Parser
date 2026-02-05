@@ -244,3 +244,10 @@ __marimo__/
 .zprofile
 .bashrc
 .env
+
+# Allow placeholder files inside ignored folders
+!outputs/
+!outputs/README.md
+!data/
+!data/10k_reports/
+!data/10k_reports/README.md
