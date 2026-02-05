@@ -239,3 +239,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 >>>>>>> a81ab1cb978d6ce514a79c6ba468d36042bb0076
+
+.zshrc
+.zprofile
+.bashrc
+.env
