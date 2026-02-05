@@ -18,8 +18,19 @@ venv/
 outputs/
 *.json
 
-# Data (raw PDFs)
-data/10k_reports/
+# Ignore generated outputs
+outputs/*
+!outputs/README.md
+
+# Ignore raw data but keep folder
+data/10k_reports/*
+!data/10k_reports/README.md
+
+# Python
+__pycache__/
+*.pyc
+.env
+.DS_Store
 
 # Ollama / local models
 .ollama/
